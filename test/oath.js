@@ -28,8 +28,8 @@ describe('oath', function () {
             return num;
           });
         };
-        makePromise(6)
-          .then(function (num) {
+
+        makePromise(6).then(function (num) {
             expect(num).to.equal(6);
             done();
           });
